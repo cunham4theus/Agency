@@ -8,7 +8,7 @@
   height: 85vh
   background-size: cover
   background-position: center
-
+  
   @include utilities.mobile
     height: 100vh  
     
@@ -19,6 +19,7 @@
   width: 100%
   background-color: variables.$black
   align-items: center
+  padding: 0 30px
 
   @include utilities.mobile
     gap: 30px
@@ -132,6 +133,12 @@
       &:hover
         border: transparent
         box-shadow: 0 1px 5px #ccc  
+
+  .btn
+
+    &:hover
+      color: variables.$dark-color
+      border: none      
 
 .jobs-container
   background-color: variables.$secondary-bg

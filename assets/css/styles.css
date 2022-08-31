@@ -87,6 +87,7 @@ li {
   width: 100%;
   background-color: #000;
   align-items: center;
+  padding: 0 30px;
 }
 @media (max-width: 875px) {
   .nav-container {
@@ -207,6 +208,10 @@ li {
 .services-container .services-card-container .services-card:hover {
   border: transparent;
   box-shadow: 0 1px 5px #ccc;
+}
+.services-container .btn:hover {
+  color: #181920;
+  border: none;
 }
 
 .jobs-container {
